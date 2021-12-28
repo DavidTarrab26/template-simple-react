@@ -1,5 +1,5 @@
 import React from 'react';
-import foto from './img/bart.jpg';
+import Foto from './img/header-simpsons.gif';
 
 class Navbar extends React.Component {
 
@@ -12,7 +12,7 @@ class Navbar extends React.Component {
                         <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <a class="navbar-brand" href="#">Hidden brand</a>
+                        <img src={Foto} />
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -31,7 +31,6 @@ class Navbar extends React.Component {
                         </div>
                     </div>
                 </nav>
-                <img src={foto} />
             </div>
          );
     }
