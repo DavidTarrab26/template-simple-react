@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Foto from './img/header-simpsons.gif';
 
 class Navbar extends React.Component {
@@ -15,18 +16,18 @@ class Navbar extends React.Component {
                         <img src={Foto} />
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <Link className="nav-link active" aria-current="page" to="/Inicio">Inicio</Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="#">Link</a>
+                            <Link className="nav-link" to="/Blog">Blog</Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <Link className="nav-link" to="/Contacto">Contacto</Link>
                             </li>
                         </ul>
                         <form className="d-flex">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-                            <button className="btn btn-outline-success" type="submit">Search</button>
+                            <button className="btn btn-outline-danger" type="submit">Busqueda</button>
                         </form>
                         </div>
                     </div>

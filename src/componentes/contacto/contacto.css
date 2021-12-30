@@ -1,0 +1,17 @@
+.fondo2{
+    background-color: rgb(207, 204, 47);
+    height: 100%;
+    border: rgb(207, 204, 47) solid 1px;
+}
+.contenedor{
+    
+    background-color: white;
+    margin: 50px 20%;
+    padding: 50px 0px;
+}
+.form{
+    margin: 0px 50px;
+}
+.btn1{
+    margin-left: 50px;
+}

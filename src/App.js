@@ -1,18 +1,23 @@
-import Carrusel from './componentes/carrusel/Carrusel';
 import Navbar from './componentes/Navbar/Navbar';
-import Carta from './componentes/cards/Carta';
 import Footer from './componentes/footer/Footer';
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import Blog from './componentes/blog/Blog';
+import Contacto from './componentes/contacto/Contacto';
+import Inicio from './componentes/inicio/Inicio';
 
 function App() {
   return (
-    <div>
+    <>
+    <Router>
       <Navbar />
-      <Carrusel />
-      <div className='centro'>
-        <Carta />
-      </div>
+        <Routes>
+          <Route path="/Inicio" element={<Inicio />}></Route>
+          <Route path="/Blog" element={<Blog />}></Route>
+          <Route path="/Contacto" element={<Contacto />}></Route>
+        </Routes>
       <Footer />
-    </div>
+    </Router>
+    </>
   );
 }
 
