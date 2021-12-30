@@ -26,7 +26,7 @@ class Navbar extends React.Component {
                             </li>
                         </ul>
                         <form className="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
+                            <input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"></input>
                             <button className="btn btn-outline-danger" type="submit">Busqueda</button>
                         </form>
                         </div>
