@@ -1,0 +1,8 @@
+.carta{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.fondo1{
+    background-color: rgb(207, 204, 47);
+}

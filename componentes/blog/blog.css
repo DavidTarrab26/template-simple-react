@@ -1,0 +1,14 @@
+.fondo{
+    background-color: rgb(207, 204, 47);
+    height: 100%;  
+}
+.adentro{
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img{
+    width: 35%;
+    margin-bottom: 20px;
+}
