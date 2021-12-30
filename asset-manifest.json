@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/template-simple-react/static/css/main.c7dcf37f.chunk.css",
+    "main.js": "/template-simple-react/static/js/main.14e3afa4.chunk.js",
+    "main.js.map": "/template-simple-react/static/js/main.14e3afa4.chunk.js.map",
+    "runtime-main.js": "/template-simple-react/static/js/runtime-main.fa1b676d.js",
+    "runtime-main.js.map": "/template-simple-react/static/js/runtime-main.fa1b676d.js.map",
+    "static/css/2.4be38407.chunk.css": "/template-simple-react/static/css/2.4be38407.chunk.css",
+    "static/js/2.109804f9.chunk.js": "/template-simple-react/static/js/2.109804f9.chunk.js",
+    "static/js/2.109804f9.chunk.js.map": "/template-simple-react/static/js/2.109804f9.chunk.js.map",
+    "index.html": "/template-simple-react/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/template-simple-react/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.c7dcf37f.chunk.css.map": "/template-simple-react/static/css/main.c7dcf37f.chunk.css.map",
+    "static/js/2.109804f9.chunk.js.LICENSE.txt": "/template-simple-react/static/js/2.109804f9.chunk.js.LICENSE.txt",
+    "static/media/carrousel-1.9b34cf9c.jpg": "/template-simple-react/static/media/carrousel-1.9b34cf9c.jpg",
+    "static/media/carrousel-2.fd912352.jpg": "/template-simple-react/static/media/carrousel-2.fd912352.jpg",
+    "static/media/carrousel-3.424560c4.jpg": "/template-simple-react/static/media/carrousel-3.424560c4.jpg",
+    "static/media/educacion.a5b69512.jpg": "/template-simple-react/static/media/educacion.a5b69512.jpg",
+    "static/media/nocheDeBrujas.f63aa866.jpg": "/template-simple-react/static/media/nocheDeBrujas.f63aa866.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa1b676d.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.109804f9.chunk.js",
+    "static/css/main.c7dcf37f.chunk.css",
+    "static/js/main.14e3afa4.chunk.js"
+  ]
+}
