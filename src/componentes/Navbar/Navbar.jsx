@@ -16,13 +16,13 @@ class Navbar extends React.Component {
                         <img src={Foto} />
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/Inicio">Inicio</Link>
+                            <Link className="nav-link active" aria-current="page" to="template-simple-react/">Inicio</Link>
                             </li>
                             <li className="nav-item">
-                            <Link className="nav-link" to="/Blog">Blog</Link>
+                            <Link className="nav-link" to="template-simple-react/Blog">Blog</Link>
                             </li>
                             <li className="nav-item">
-                            <Link className="nav-link" to="/Contacto">Contacto</Link>
+                            <Link className="nav-link" to="template-simple-react/Contacto">Contacto</Link>
                             </li>
                         </ul>
                         <form className="d-flex">

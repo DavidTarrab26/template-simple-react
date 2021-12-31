@@ -11,9 +11,9 @@ function App() {
     <Router>
       <Navbar />
         <Routes>
-          <Route path="/Inicio" element={<Inicio />}/>
-          <Route path="/Blog" element={<Blog />}/>
-          <Route path="/Contacto" element={<Contacto />}/>
+          <Route path="template-simple-react/" element={<Inicio />}/>
+          <Route path="template-simple-react/Blog" element={<Blog />}/>
+          <Route path="template-simple-react/Contacto" element={<Contacto />}/>
         </Routes>
       <Footer />
     </Router>
